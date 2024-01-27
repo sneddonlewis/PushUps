@@ -25,8 +25,11 @@ export class NavbarComponent {
     this.router.navigate(['/']).then()
   }
 
-
   navigateAdd() {
     this.router.navigate(['/add']).then()
+  }
+
+  navigateAbout() {
+    this.router.navigate(['/about']).then()
   }
 }

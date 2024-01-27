@@ -3,6 +3,7 @@
 This app tracks push ups for display on a table on the homepage.  
 The home page at route `/` shows the push up data.  
 The add page at route `/add` provides a form to add a new workout of some push ups.  
+The about page at route `/about` is a placeholder for some more information.  
 Web API calls would normally happen in `app/service/workout.service.ts` in place of the in memory array.
 
 ## Requirements
