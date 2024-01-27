@@ -1,0 +1,13 @@
+<form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <mat-label>Reps</mat-label>
+        <input formControlName="reps"
+               matInput
+               type="number"
+               required
+               min="1"
+               step="1"
+        >
+    </mat-form-field>
+    <button mat-button type="submit">Add</button>
+</form>
